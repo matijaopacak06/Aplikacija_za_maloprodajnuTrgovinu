@@ -1,0 +1,147 @@
+<Trgovina>
+    <Proizvodi>
+        <!-- Hrana -->
+        <Proizvod ID_Proizvod="1">
+            <Naziv>Kruh</Naziv>
+            <Opis>Svježi bijeli kruh</Opis>
+            <Cijena>1.20</Cijena>
+            <Kategorija>Hrana</Kategorija>
+            <Količina>50</Količina>
+            <Jedinica_mjere>komad</Jedinica_mjere>
+        </Proizvod>
+        <Proizvod ID_Proizvod="2">
+            <Naziv>Mlijeko 1L</Naziv>
+            <Opis>Svježe kravlje mlijeko</Opis>
+            <Cijena>1.50</Cijena>
+            <Kategorija>Hrana</Kategorija>
+            <Količina>30</Količina>
+            <Jedinica_mjere>litara</Jedinica_mjere>
+        </Proizvod>
+        <Proizvod ID_Proizvod="3">
+            <Naziv>Sir Gauda 250g</Naziv>
+            <Opis>Polutvrdi sir</Opis>
+            <Cijena>3.99</Cijena>
+            <Kategorija>Hrana</Kategorija>
+            <Količina>20</Količina>
+            <Jedinica_mjere>paket</Jedinica_mjere>
+        </Proizvod>
+        <Proizvod ID_Proizvod="4">
+            <Naziv>Jaja 10 kom</Naziv>
+            <Opis>Svježa kokošja jaja</Opis>
+            <Cijena>2.80</Cijena>
+            <Kategorija>Hrana</Kategorija>
+            <Količina>40</Količina>
+            <Jedinica_mjere>paket</Jedinica_mjere>
+        </Proizvod>
+        <Proizvod ID_Proizvod="5">
+            <Naziv>Tjestenina 500g</Naziv>
+            <Opis>Kvalitetna durum tjestenina</Opis>
+            <Cijena>1.99</Cijena>
+            <Kategorija>Hrana</Kategorija>
+            <Količina>35</Količina>
+            <Jedinica_mjere>paket</Jedinica_mjere>
+        </Proizvod>
+
+        <!-- Piće -->
+        <Proizvod ID_Proizvod="6">
+            <Naziv>Coca-Cola 1L</Naziv>
+            <Opis>Gazirano bezalkoholno piće</Opis>
+            <Cijena>1.99</Cijena>
+            <Kategorija>Piće</Kategorija>
+            <Količina>40</Količina>
+            <Jedinica_mjere>litara</Jedinica_mjere>
+        </Proizvod>
+        <Proizvod ID_Proizvod="7">
+            <Naziv>Voda 1.5L</Naziv>
+            <Opis>Prirodna izvorska voda</Opis>
+            <Cijena>0.80</Cijena>
+            <Kategorija>Piće</Kategorija>
+            <Količina>60</Količina>
+            <Jedinica_mjere>litara</Jedinica_mjere>
+        </Proizvod>
+        <Proizvod ID_Proizvod="8">
+            <Naziv>Sok od naranče 1L</Naziv>
+            <Opis>100% prirodni sok od naranče</Opis>
+            <Cijena>2.50</Cijena>
+            <Kategorija>Piće</Kategorija>
+            <Količina>30</Količina>
+            <Jedinica_mjere>litara</Jedinica_mjere>
+        </Proizvod>
+        <Proizvod ID_Proizvod="9">
+            <Naziv>Energetsko piće 500ml</Naziv>
+            <Opis>Daje dodatnu energiju</Opis>
+            <Cijena>2.20</Cijena>
+            <Kategorija>Piće</Kategorija>
+            <Količina>25</Količina>
+            <Jedinica_mjere>limenka</Jedinica_mjere>
+        </Proizvod>
+        <Proizvod ID_Proizvod="10">
+            <Naziv>Zeleni čaj 1L</Naziv>
+            <Opis>Osvježavajući zeleni čaj</Opis>
+            <Cijena>1.99</Cijena>
+            <Kategorija>Piće</Kategorija>
+            <Količina>20</Količina>
+            <Jedinica_mjere>litara</Jedinica_mjere>
+        </Proizvod>
+
+        <!-- Higijena -->
+        <Proizvod ID_Proizvod="11">
+            <Naziv>Šampon</Naziv>
+            <Opis>Šampon za sve tipove kose</Opis>
+            <Cijena>4.00</Cijena>
+            <Kategorija>Higijena</Kategorija>
+            <Količina>15</Količina>
+            <Jedinica_mjere>mililitara</Jedinica_mjere>
+        </Proizvod>
+        <Proizvod ID_Proizvod="12">
+            <Naziv>Pasta za zube</Naziv>
+            <Opis>Kaladont</Opis>
+            <Cijena>2.50</Cijena>
+            <Kategorija>Higijena</Kategorija>
+            <Količina>30</Količina>
+            <Jedinica_mjere>mililitara</Jedinica_mjere>
+        </Proizvod>
+        <Proizvod ID_Proizvod="13">
+            <Naziv>Tekući sapun</Naziv>
+            <Opis>Hidratizirajući sapun za ruke</Opis>
+            <Cijena>3.99</Cijena>
+            <Kategorija>Higijena</Kategorija>
+            <Količina>25</Količina>
+            <Jedinica_mjere>militara</Jedinica_mjere>
+        </Proizvod>
+
+        <!-- Kućanske potrepštine -->
+        <Proizvod ID_Proizvod="14">
+            <Naziv>Deterđent za suđe</Naziv>
+            <Opis>Sredstvo za pranje suđa</Opis>
+            <Cijena>3.50</Cijena>
+            <Kategorija>Kućanske potrepštine</Kategorija>
+            <Količina>25</Količina>
+            <Jedinica_mjere>mililitara</Jedinica_mjere>
+        </Proizvod>
+        <Proizvod ID_Proizvod="15">
+            <Naziv>Spužve za posuđe</Naziv>
+            <Opis>Set od 5 spužvi</Opis>
+            <Cijena>2.00</Cijena>
+            <Kategorija>Kućanske potrepštine</Kategorija>
+            <Količina>35</Količina>
+            <Jedinica_mjere>paket</Jedinica_mjere>
+        </Proizvod>
+        <Proizvod ID_Proizvod="16">
+            <Naziv>Krpe za čišćenje</Naziv>
+            <Opis>Mikrofiber krpe za čišćenje</Opis>
+            <Cijena>4.99</Cijena>
+            <Kategorija>Kućanske potrepštine</Kategorija>
+            <Količina>40</Količina>
+            <Jedinica_mjere>set</Jedinica_mjere>
+        </Proizvod>
+        <Proizvod ID_Proizvod="17">
+            <Naziv>Osvježivač zraka</Naziv>
+            <Opis>Osvježivač zraka s mirisom lavande</Opis>
+            <Cijena>5.50</Cijena>
+            <Kategorija>Kućanske potrepštine</Kategorija>
+            <Količina>30</Količina>
+            <Jedinica_mjere>boca</Jedinica_mjere>
+        </Proizvod>
+    </Proizvodi>
+</Trgovina>

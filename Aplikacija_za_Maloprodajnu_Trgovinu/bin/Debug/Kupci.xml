@@ -1,0 +1,58 @@
+<Kupci>
+    <Kupac ID_Kupac="1">
+        <Ime>Marko</Ime>
+        <Prezime>Horvat</Prezime>
+        <Adresa>Ulica Kralja Tomislava 12, Zagreb</Adresa>
+        <Telefon>0911234567</Telefon>
+        <Email>marko.horvat@example.com</Email>
+    </Kupac>
+    <Kupac ID_Kupac="2">
+        <Ime>Ana</Ime>
+        <Prezime>Kovačić</Prezime>
+        <Adresa>Trg Bana Jelačića 5, Split</Adresa>
+        <Telefon>0929876543</Telefon>
+        <Email>ana.kovacic@example.com</Email>
+    </Kupac>
+    <Kupac ID_Kupac="3">
+        <Ime>Ivan</Ime>
+        <Prezime>Perić</Prezime>
+        <Adresa>Vukovarska 34, Osijek</Adresa>
+        <Telefon>0953456789</Telefon>
+        <Email>ivan.peric@example.com</Email>
+    </Kupac>
+    <Kupac ID_Kupac="4">
+        <Ime>Petra</Ime>
+        <Prezime>Novak</Prezime>
+        <Adresa>Istarska 22, Rijeka</Adresa>
+        <Telefon>0982233445</Telefon>
+        <Email>petra.novak@example.com</Email>
+    </Kupac>
+    <Kupac ID_Kupac="5">
+        <Ime>Luka</Ime>
+        <Prezime>Jurić</Prezime>
+        <Adresa>Zagrebačka avenija 88, Zagreb</Adresa>
+        <Telefon>0971122334</Telefon>
+        <Email>luka.juric@example.com</Email>
+    </Kupac>
+    <Kupac ID_Kupac="6">
+        <Ime>Maja</Ime>
+        <Prezime>Barišić</Prezime>
+        <Adresa>Splitska ulica 5, Split</Adresa>
+        <Telefon>0994433221</Telefon>
+        <Email>maja.barisic@example.com</Email>
+    </Kupac>
+    <Kupac ID_Kupac="7">
+        <Ime>Nikola</Ime>
+        <Prezime>Šimić</Prezime>
+        <Adresa>Dubrovačka 18, Dubrovnik</Adresa>
+        <Telefon>0916677889</Telefon>
+        <Email>nikola.simic@example.com</Email>
+    </Kupac>
+    <Kupac ID_Kupac="8">
+        <Ime>Kristina</Ime>
+        <Prezime>Milić</Prezime>
+        <Adresa>Varaždinska 10, Varaždin</Adresa>
+        <Telefon>0957788990</Telefon>
+        <Email>kristina.milic@example.com</Email>
+    </Kupac>
+</Kupci>

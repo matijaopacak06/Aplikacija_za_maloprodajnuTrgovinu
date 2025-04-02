@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{34B8388C-F631-43DC-9CF6-D13D7AA41749}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Aplikacija_za_Maloprodajnu_Trgovinu</RootNamespace>
+    <AssemblyName>Aplikacija_za_Maloprodajnu_Trgovinu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="forme\GlavnaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forme\GlavnaForma.Designer.cs">
+      <DependentUpon>GlavnaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forme\Kupci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forme\Kupci.Designer.cs">
+      <DependentUpon>Kupci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forme\Proizvodi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forme\Proizvodi.Designer.cs">
+      <DependentUpon>Proizvodi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forme\RacunForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forme\RacunForma.Designer.cs">
+      <DependentUpon>RacunForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forme\Kasa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forme\Kasa.Designer.cs">
+      <DependentUpon>Kasa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="klase\AdresaDobavljaca.cs" />
+    <Compile Include="klase\AdresaKupca.cs" />
+    <Compile Include="klase\Dobavljac.cs" />
+    <Compile Include="klase\Drzava.cs" />
+    <Compile Include="klase\Grad.cs" />
+    <Compile Include="klase\Kupac.cs" />
+    <Compile Include="klase\Proizvod.cs" />
+    <Compile Include="klase\Racun.cs" />
+    <Compile Include="klase\StavkaRacuna.cs" />
+    <Compile Include="klase\Zaliha.cs" />
+    <Compile Include="klase\Zaposlenik.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="forme\GlavnaForma.resx">
+      <DependentUpon>GlavnaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forme\Kupci.resx">
+      <DependentUpon>Kupci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forme\Proizvodi.resx">
+      <DependentUpon>Proizvodi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forme\RacunForma.resx">
+      <DependentUpon>RacunForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forme\Kasa.resx">
+      <DependentUpon>Kasa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="grafika\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trgovina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trgovina2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kasa2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\racun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kasa21.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
