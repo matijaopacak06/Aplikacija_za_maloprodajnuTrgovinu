@@ -35,7 +35,6 @@
             this.Cijena = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Količina = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ukupna_cijena = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnPrikaziRacun = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRacun)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,17 +100,6 @@
             this.Ukupna_cijena.Name = "Ukupna_cijena";
             this.Ukupna_cijena.Width = 150;
             // 
-            // btnPrikaziRacun
-            // 
-            this.btnPrikaziRacun.Font = new System.Drawing.Font("Palatino Linotype", 9F);
-            this.btnPrikaziRacun.Location = new System.Drawing.Point(12, 385);
-            this.btnPrikaziRacun.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnPrikaziRacun.Name = "btnPrikaziRacun";
-            this.btnPrikaziRacun.Size = new System.Drawing.Size(151, 51);
-            this.btnPrikaziRacun.TabIndex = 13;
-            this.btnPrikaziRacun.Text = "Prikaži račun";
-            this.btnPrikaziRacun.UseVisualStyleBackColor = true;
-            // 
             // RacunForma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -119,7 +107,6 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = global::Aplikacija_za_Maloprodajnu_Trgovinu.Properties.Resources.racun;
             this.ClientSize = new System.Drawing.Size(1436, 450);
-            this.Controls.Add(this.btnPrikaziRacun);
             this.Controls.Add(this.dataGridViewRacun);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "RacunForma";
@@ -132,7 +119,6 @@
 
         #endregion
         private System.Windows.Forms.DataGridView dataGridViewRacun;
-        private System.Windows.Forms.Button btnPrikaziRacun;
         private System.Windows.Forms.DataGridViewTextBoxColumn Kupac;
         private System.Windows.Forms.DataGridViewTextBoxColumn Kategorija;
         private System.Windows.Forms.DataGridViewTextBoxColumn Proizvod;

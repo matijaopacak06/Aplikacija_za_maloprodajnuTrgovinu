@@ -107,22 +107,45 @@ namespace Aplikacija_za_Maloprodajnu_Trgovinu.forme
                 MessageBox.Show("Molimo odaberite proizvod i kategoriju.");
                 return;
             }
-            XDocument doc = XDocument.Load(proizvodiXml);
+            XDocument doc = XDocument.Load(proizvodiXml); //Učitavanje XML-dokumenta
 
             decimal cijena = 0;
 
+            // Pretraživanje proizvoda u XML datoteci
             var proizvodXml = doc.Descendants("Proizvod")
                 .FirstOrDefault(x => (x.Element("Naziv")?.Value ?? "").Trim() == nazivproizvoda.Trim());
 
             if (proizvodXml != null)
             {
-                decimal.TryParse(proizvodXml.Element("Cijena")?.Value, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out cijena);
+                decimal.TryParse(proizvodXml.Element("Cijena")?.Value, System.Globalization.NumberStyles.Any, 
+                    System.Globalization.CultureInfo.InvariantCulture, out cijena);
                 
             }
             else
             {
-                MessageBox.Show($"Proizvod '{nazivproizvoda}' nije pronađen u XML datoteci.", "Upozorenje", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show($"Proizvod '{nazivproizvoda}' nije pronađen u XML datoteci.", "Upozorenje", MessageBoxButtons.OK, 
+                    MessageBoxIcon.Warning);
             }
+
+            
+            // Provjeri i ažuriraj količinu
+            int trenutnaKolicina = int.Parse(proizvodXml.Element("Količina")?.Value ?? "0");
+
+            if (trenutnaKolicina < kolicina)
+            {
+                MessageBox.Show("Nema dovoljno proizvoda na skladištu!", "Greška", MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+                return;
+            }
+
+            int novaKolicina = trenutnaKolicina - kolicina;
+            proizvodXml.Element("Količina").Value = novaKolicina.ToString();
+
+            // Spremi promjene u XML
+            doc.Save(proizvodiXml);
+
+
+
 
 
 

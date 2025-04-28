@@ -39,5 +39,10 @@ namespace Aplikacija_za_Maloprodajnu_Trgovinu.forme
             Kupci kupciForm = new Kupci();
             kupciForm.Show();
         }
+
+        private void GlavnaForma_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

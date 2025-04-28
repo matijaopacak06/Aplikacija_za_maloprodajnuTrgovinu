@@ -84,8 +84,6 @@
             this.comboBoxKategorija.Name = "comboBoxKategorija";
             this.comboBoxKategorija.Size = new System.Drawing.Size(134, 30);
             this.comboBoxKategorija.TabIndex = 7;
-           
-
             // 
             // label4
             // 
@@ -172,7 +170,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.Name = "Kasa";
-            this.Text = "Pocetna";
+            this.Text = "Kasa";
             this.Load += new System.EventHandler(this.Pocetna_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownKolicina)).EndInit();
             this.ResumeLayout(false);
